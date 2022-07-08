@@ -86,7 +86,7 @@ const FileInputBase: ForwardRefRenderFunction<
 
       formData.append(event.target.name, event.target.files[0]);
       formData.append('key', process.env.NEXT_PUBLIC_IMGBB_API_KEY);
-
+      
       const { CancelToken } = axios;
       const source = CancelToken.source();
       setCancelToken(source);
@@ -98,7 +98,7 @@ const FileInputBase: ForwardRefRenderFunction<
         },
         cancelToken: source.token,
       } as AxiosRequestConfig;
-
+      
       try {
         const response = await api.post(
           'https://api.imgbb.com/1/upload',
