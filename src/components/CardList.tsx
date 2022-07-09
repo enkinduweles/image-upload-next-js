@@ -24,11 +24,9 @@ export function CardList({ cards }: CardsProps): JSX.Element {
     onOpen();
   }
 
-  console.log(cards)
-
   return (
     <>
-      <SimpleGrid columns={3} spacing='40px' minChildWidth='180px'>
+      <SimpleGrid  spacing='40px' minChildWidth='180px' mb={4}>
         {cards.map(({id, ...cardContent}) => {
           return <Card key={id} data={cardContent} viewImage={viewImageHandler}/>
         })}
