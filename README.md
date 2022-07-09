@@ -42,7 +42,7 @@ Antes de começar, você vai precisar:
 
 Em seguida vai precisar criar as chaves para acessar as APIs. Com as chaves geradas, crie um arquivo **.env.local** na raiz do projeto com as variáveis conforme segue exemplo no arquivo **.env.example**
 
-Você precisa ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e .
+Ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e .
 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
